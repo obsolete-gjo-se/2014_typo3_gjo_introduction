@@ -1,0 +1,13 @@
+breadcrumb = HMENU
+breadcrumb {
+    special = rootline
+    special.range = 1|-1
+    1 = TMENU
+    1 {
+        NO.linkWrap = |
+#
+#        CUR = 1
+#        CUR.linkWrap = <span class="breadAct">&_nbsp;|&_nbsp;</span>
+#        CUR.doNotLinkIt = 1
+    }
+}

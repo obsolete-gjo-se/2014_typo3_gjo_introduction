@@ -1,0 +1,21 @@
+<f:layout name="default"/>
+
+<f:section name="main">
+
+    <f:comment>
+        <f:render partial="Menu/breadcrumb" arguments="{breadcrumb:breadcrumb}"/>
+    </f:comment>
+
+
+
+
+    <h1>Ausgabe aus Default-Template:</h1>
+
+    {colPos11 -> f:format.raw()}
+    {colPos12 -> f:format.raw()}
+    {colPos13 -> f:format.raw()}
+
+</f:section>
+
+
+

@@ -1,0 +1,10 @@
+<domainexample class="rdomainexample>
+    <div class="large-12 columns">
+
+        <ol class="breadcrumb">
+            <f:format.raw>{breadcrumb}</f:format.raw>
+
+            <li class="active">Breadcrumb</li>
+domainedomainexampleple     </ol>
+    </div>
+</div>

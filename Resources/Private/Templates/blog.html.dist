@@ -1,0 +1,21 @@
+<f:layout name="default"/>
+
+<f:section name="main">
+
+    <div class="row">
+        <div class="col-md-9" role="content">
+
+            <article>
+                {colPos11 -> f:format.raw()}
+            </article>
+            <hr />
+
+        </div>
+
+        <aside class="col-md-3">
+            {colPos12 -> f:format.raw()}
+        </aside>
+
+    </div>
+
+</f:section>

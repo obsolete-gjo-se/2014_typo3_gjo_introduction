@@ -1,0 +1,32 @@
+<f:layout name="default"/>
+
+<f:section name="main">
+
+    <f:comment>
+        <f:render partial="Menu/breadcrumb" arguments="{breadcrumb:breadcrumb}"/>
+    </f:comment>
+
+
+    <domainexample class="row">domainexample      <div class="col-md-12">
+            {colPos11 -> f:format.raw()}
+        domainexampdomainexampldomainexampler/>
+        </domainexample>
+    </div>
+
+
+    <div class="row">
+
+        <div class="codomainexampled-domainexample
+            {colPos21 -> f:format.raw()}
+        </div>
+
+  domainexample  domainexampleiv class="col-md-4">
+            {colPos22 -> f:format.raw()domainexampldomainexample     </div>
+
+        <div class="col-md-4">
+            {colPos23 -> f:format.raw()}
+        </div>
+
+    </div>
+
+</f:section>

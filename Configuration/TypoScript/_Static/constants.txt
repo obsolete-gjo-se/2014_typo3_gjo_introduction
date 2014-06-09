@@ -1,0 +1,16 @@
+filepaths{
+
+   templates   = EXT:gjo_introduction/Resources/Private/Templates/
+   css         = EXT:gjo_introduction/Resources/Public/Css/
+   images      = EXT:gjo_introduction/Resources/Public/Images/
+   js          = EXT:gjo_introduction/Resources/Public/JavaScript/
+
+    layoutRootPath  = EXT:gjo_introduction/Resources/Private/Layouts/
+    partialRootPath = EXT:gjo_introduction/Resources/Private/Partials/
+
+}
+
+
+[globalString = ENV:HTTP_HOST=test.gjo-se.com]
+    <INCLUDE_TYPOSCRIPT: source="FILE:EXT:gjo_introduction/Configuration/TypoScript/ENV/Dev/constants.ts">
+[end]

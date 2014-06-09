@@ -1,0 +1,12 @@
+<nav class="navbar navbar-inverse" role="navigation" xmlns="http://www.w3.org/1999/html">
+    <domainexample class="container-fluid">domainexample      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <f:format.raw>{mainMenu}</f:format.raw>
+         domainexampldomainexampleul>
+
+        </div>
+
+    </div>
+</nav>
+
+

@@ -1,0 +1,60 @@
+template = FLUIDTEMPLATE
+template {
+
+    layoutRootPath = {$filepaths.layoutRootPath}
+    partialRootPath = {$filepaths.partialRootPath}
+
+    file.stdWrap.cObject = CASE
+    file.stdWrap.cObject {
+
+        key.data = levelfield:-1, backend_layout_next_level, slide
+        key.override.field = backend_layout
+
+
+        {$ENV.BackendLayout_banded} = TEXT
+        {$ENV.BackendLayout_banded}.value = {$filepaths.templates}banded.html
+
+        {$ENV.BackendLayout_blog} = TEXT
+        {$ENV.BackendLayout_blog}.value = {$filepaths.templates}blog.html
+
+        {$ENV.BackendLayout_orbit} = TEXT
+        {$ENV.BackendLayout_orbit}.value = {$filepaths.templates}orbit.html
+
+        default = TEXT
+        default.value = {$filepaths.templates}default.html
+
+    }
+
+    variables{
+        mainMenu < mainMenu
+        breadcrumb < breadcrumb
+
+        colPos11 < styles.content.get
+        colPos11.select.where = colPos = 11
+
+        colPos12 < styles.content.get
+        colPos12.select.where = colPos = 12
+
+        colPos13 < styles.content.get
+        colPos13.select.where = colPos = 13
+
+        colPos21 < styles.content.get
+        colPos21.select.where = colPos = 21
+
+        colPos22 < styles.content.get
+        colPos22.select.where = colPos = 22
+
+        colPos23 < styles.content.get
+        colPos23.select.where = colPos = 23
+
+        colPos31 < styles.content.get
+        colPos31.select.where = colPos = 31
+
+        colPos32 < styles.content.get
+        colPos32.select.where = colPos = 32
+
+        colPos33 < styles.content.get
+        colPos33.select.where = colPos = 33
+
+    }
+}

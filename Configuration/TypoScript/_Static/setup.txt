@@ -1,0 +1,11 @@
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gjo_introduction/Configuration/TypoScript/Config/config.ts">
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gjo_introduction/Configuration/TypoScript/Menu/mainMenu.ts">
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gjo_introduction/Configuration/TypoScript/Menu/breadcrumb.ts">
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gjo_introduction/Configuration/TypoScript/Template/template.ts">
+
+#<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gjo_introduction/Configuration/TypoScript/Special/browserSwitch.ts">
+
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:gjo_introduction/Configuration/TypoScript/Page/screen.ts">
+

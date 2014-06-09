@@ -1,0 +1,35 @@
+<f:layout name="default"/>
+
+
+<f:section name="main">
+
+    <f:comment>
+        <f:render partial="Menu/breadcrumb" arguments="{breadcrumb:breadcrumb}"/>
+    </f:comment>
+
+    <div class="row">
+        <div class="col-md-12">
+            {colPos11 -> f:format.raw()}
+            <hr>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            {colPos21 -> f:format.raw()}
+        </div>
+        <div class="col-md-8">
+            {colPos22 -> f:format.raw()}
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            {colPos31 -> f:format.raw()}
+        </div>
+        <div class="col-md-4">
+            {colPos32 -> f:format.raw()}
+        </div>
+    </div>
+
+</f:section>
