@@ -1,5 +1,5 @@
 ENV{
 
-    baseURL = http://test.gjo-se.com/
+    baseURL = http://dev.gjo-se.com/
 
 }
