@@ -23,6 +23,6 @@ config {
 }
 [global]
 
-[globalString = ENV:HTTP_HOST=dev.gjo-se.com]
+[globalString = ENV:HTTP_HOST=dev.cfm-charite.de]
     <INCLUDE_TYPOSCRIPT: source="FILE:EXT:gjo_introduction/Configuration/TypoScript/ENV/Dev/config.ts">
 [end]
