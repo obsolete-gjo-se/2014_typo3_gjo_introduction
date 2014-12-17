@@ -14,7 +14,7 @@ TCEFORM.tt_content {
     
   }
   section_frame{
-    addItems.30 = emtec Kachel
+    addItems.30 =  Kachel
     
   }
   header_layout{

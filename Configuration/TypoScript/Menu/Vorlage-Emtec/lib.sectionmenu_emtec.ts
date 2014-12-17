@@ -1,5 +1,5 @@
-lib.sectionmenu_emtec = HMENU
-lib.sectionmenu_emtec {
+lib.sectionmenu = HMENU
+lib.sectionmenu {
   1 = TMENU
   1 {
     expAll = 1

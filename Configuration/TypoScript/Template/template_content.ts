@@ -1,7 +1,7 @@
 ## Content-Bereich
 template_content = TEMPLATE
 template_content {
-    ## Templateauswahl anhand des Backend-Layouts (ID, z.B. 16 = emtec_flat_home)
+    ## Templateauswahl anhand des Backend-Layouts (ID, z.B. 16 = _flat_home)
     ## Default Template ist die subpage.html
     template = CASE
     template{
@@ -18,7 +18,7 @@ template_content {
 
     marks{
 
-        TOPMENU < lib.topmenu_emtec
+        TOPMENU < lib.topmenu_
         IMAGEPATH = TEXT
         IMAGEPATH.value = /{$filepath.image}
 

@@ -103,7 +103,7 @@ tt_content.stdWrap {
   innerWrap.cObject = CASE
   innerWrap.cObject {
     key.field = section_frame
-    # 30 = emtec Kachel
+    # 30 =  Kachel
     30 = TEXT
     30.value = <div class="columns small-6 squarepic">|</div>
 #    30.outerWrap.override = <tt>|</tt>

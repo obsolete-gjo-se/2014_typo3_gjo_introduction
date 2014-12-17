@@ -1,4 +1,4 @@
-# Menu für Mobil, Normlaes Menu in lib.topmenu_emtec
+# Menu für Mobil, Normlaes Menu in lib.topmenu_
 template_sectionmenu = TEMPLATE
 
 template_sectionmenu{
@@ -7,6 +7,6 @@ template_sectionmenu{
     template.file = {$filepath.template}main_header.responsive.html
     marks.IMAGEPATH = TEXT
     marks.IMAGEPATH.value = /{$filepath.image}
-    marks.SECTIONMENU < lib.sectionmenu_emtec
+    marks.SECTIONMENU < lib.sectionmenu_
 
 }

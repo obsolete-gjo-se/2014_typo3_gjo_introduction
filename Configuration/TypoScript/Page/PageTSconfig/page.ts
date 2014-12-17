@@ -11,9 +11,8 @@ page{
       includeJS.modernizr = /{$filepath.script}vendor/custom.modernizr.js
       includeJS.respond = /{$filepath.script}respond.js
       includeCSS.menu = /{$filepath.css}menu.css
-      includeCSS.emtec = /{$filepath.css}emtec_all.css
-      includeCSS.font= /{$filepath.css}font.css
-      includeJS.emtec = /{$filepath.script}emtec.js
+      includeCSS = /{$filepath.css}_all.css
+      includeJS = /{$filepath.script}.js
       includeJS.menu = /{$filepath.script}menu.js
       includeJSFooter.google = /{$filepath.script}google.js
 
@@ -21,7 +20,7 @@ page{
       headerData{
             10 = TEXT
             10.field = subtitle // title
-            10.wrap = <title>emtec - &nbsp;| </title>
+            10.wrap = <title> - &nbsp;| </title>
 
             20=TEXT
             20.value (
