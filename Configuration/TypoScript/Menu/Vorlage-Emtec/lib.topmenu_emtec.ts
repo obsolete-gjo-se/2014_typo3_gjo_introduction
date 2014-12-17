@@ -1,5 +1,5 @@
-lib.topmenu_emtec = HMENU
-lib.topmenu_emtec {
+lib.topmenu = HMENU
+lib.topmenu {
 
 
   ### Level 1

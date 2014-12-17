@@ -15,7 +15,7 @@ tt_content.stdWrap.parseFunc < lib.parseFunc_RTE
 [browser = msie] && [version = 8,6,7]
     page.includeCSS.ie= /{$filepath.css}ie8.css
 ## [else]
- ## page.includeCSS.emtec = /{$filepath.css}emtec_all.css
+ ## page.includeCSS. = /{$filepath.css}_all.css
 [global]
 
 ## Hinzufügen der JS-Datei für Systeme mit Maus (MouseOver-Effekt im Menü)

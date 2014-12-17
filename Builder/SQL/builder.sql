@@ -3,7 +3,7 @@ DELETE FROM sys_template
 WHERE uid > 0;
 
 INSERT INTO `sys_template` (`uid`, `pid`, `t3ver_oid`, `t3ver_id`, `t3ver_wsid`, `t3ver_label`, `t3ver_state`, `t3ver_stage`, `t3ver_count`, `t3ver_tstamp`, `t3_origuid`, `tstamp`, `sorting`, `crdate`, `cruser_id`, `title`, `sitetitle`, `hidden`, `starttime`, `endtime`, `root`, `clear`, `include_static_file`, `constants`, `config`, `nextLevel`, `description`, `basedOn`, `deleted`, `includeStaticAfterBasedOn`, `static_file_mode`, `tx_impexp_origuid`) VALUES
-	(1, 1, 0, 0, 0, '', 0, 0, 0, 0, 0, 1397208031, 128, 1397046111, 1, 'test.gjo-se.com', 'test.gjo-se.com', 0, 0, 0, 1, 3, 'EXT:css_styled_content/static/',
+	(1, 1, 0, 0, 0, '', 0, 0, 0, 0, 0, 1397208031, 128, 1397046111, 1, 'dev.n-28.com', 'dev.n-28.com', 0, 0, 0, 1, 3, 'EXT:css_styled_content/static/',
    '<INCLUDE_TYPOSCRIPT: source="DIR:EXT:gjo_introduction/Configuration/TypoScript/_Constants">', '<INCLUDE_TYPOSCRIPT: source="DIR:EXT:gjo_introduction/Configuration/TypoScript/_Setup">', '', NULL, '', 0, 0, 0, 0);
 
 
